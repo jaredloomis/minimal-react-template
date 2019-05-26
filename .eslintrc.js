@@ -42,7 +42,7 @@ const rules = Object.assign({},
 module.exports = {
   "parser": "babel-eslint",
   "env": {
-      "es6": true,
+    "es6": true,
     "node": false,
     "browser": true
   },
@@ -55,10 +55,5 @@ module.exports = {
       }
   },
   rules,
-  "plugins": ["flowtype"],
-  "globals": {
-      "$": false,
-      "Materialize": false
-  },
   "plugins": ["react"]
 }
